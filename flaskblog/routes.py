@@ -52,5 +52,5 @@ def login():
       # user=User.query.filter_by(email=form.email.data).first()
        #if user and bcrypt.check_password_hash(user.password)
                 #flash('Login Unsuccessful. Please check username and password','danger')
-    #return render_template('login.html',title='Login', form=form)
+    return render_template('login.html',title='Login', form=form)
  
