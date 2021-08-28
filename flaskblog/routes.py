@@ -7,10 +7,6 @@ from flaskblog.forms import RegistrationForm, LoginForm, UpdateAccountForm,PostF
 from flaskblog.models import User, Post
 from flask_login import login_user, current_user, logout_user, login_required
 
-@app.route("/test") #route to website page "home". 
-def test():
-    
-    return render_template('test.html') # return information from home.html,input(variable) posts=xxx goes to home.html
 
 
 
