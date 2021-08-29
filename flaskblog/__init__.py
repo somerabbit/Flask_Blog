@@ -9,7 +9,7 @@ from sqlalchemy.engine.create import create_engine
 # Get the Database URL using Heroku CLI
 # -------------------------------------
 # Running the following from Python: $heroku config:get DATABASE_URL --app your-app-name
-heroku_app_name = "your-app-name"
+heroku_app_name = "ben-app-blog"
 
 # Assumption: HEROKU_API_KEY is set in your terminal
 # You can confirm that it's set by running the following python command os.environ["HEROKU_API_KEY"]
