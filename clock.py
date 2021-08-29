@@ -2,7 +2,7 @@ from apscheduler.schedulers.blocking import BlockingScheduler
 
 sched = BlockingScheduler()
 
-@sched.scheduled_job('cron', hour='6-1', minute='*/20')
+@sched.scheduled_job('cron', hour='6-23', minute='*/20')
 def scheduled_job():
     print('========== APScheduler CRON =========')
     # 馬上讓我們瞧瞧
