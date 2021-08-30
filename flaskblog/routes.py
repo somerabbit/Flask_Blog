@@ -7,9 +7,6 @@ from flaskblog.forms import RegistrationForm, LoginForm, UpdateAccountForm,PostF
 from flaskblog.models import User, Post
 from flask_login import login_user, current_user, logout_user, login_required
 
-
-
-
 #set up website page
 @app.route("/")
 @app.route("/home") #route to website page "home". 
