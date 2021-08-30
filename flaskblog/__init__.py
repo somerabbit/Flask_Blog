@@ -10,7 +10,7 @@ app.config['SECRET_KEY']='8cea2065c057138b1193f0134c0f0c7e' #set up key to prote
 ENV='prod'
 if ENV=='dev':
     app.debug=True
-    app.config['SQLALCHEMY_DATABASE_URI']='postgresql://postgres:somerabbit@localhost/blog'
+    app.config['SQLALCHEMY_DATABASE_URI']='postgresql://postgres:xxxxxx@localhost/blog'
 
 else:
     app.debug=False
