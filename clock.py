@@ -5,7 +5,7 @@ from urllib.request import urlopen
 
 sched = BlockingScheduler()
 
-@sched.scheduled_job('cron',day_of_week='mon-sun',hour='7-23',minute='*/2')
+@sched.scheduled_job('cron',day_of_week='mon-sun',hour='7-23',minute='*/20')
 def scheduled_job():
     print('========== APScheduler CRON =========')
     # 馬上讓我們瞧瞧
